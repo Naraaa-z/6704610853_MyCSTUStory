@@ -57,7 +57,7 @@ nav {
     text-decoration: underline;
 }
 
-/* Start Home Page */
+/* Start P-1 of Home Pages*/
 
 .first-big-text {
     color: var(--main-color);
@@ -94,3 +94,62 @@ nav {
 .second-box-logo img {
     width: 110%;
 }
+
+/* End P-1 of Home Page */
+
+/* Start P-2 of Home Page */
+
+.home-page2-sirproject {
+    display: flex;
+    padding-top: 1rem;
+}
+
+.hp2-box1 {
+    background-color: var(--main-color);
+    width: 50%;
+    height: auto;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.hp2-box1 h3 {
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    font-size: 2.1rem;
+    color: var(--background--color);
+}
+
+.hp2-box1-detail {
+    color: var(--background--color);
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.hp2-box2 {
+    background-color: var(--background--color);
+    width: 50%;
+    height: auto;
+}
+
+.hp2-box2-big-img img {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hp2-box2-img-box {
+    margin-top: 1rem;
+}
+
+.hp2-box2-img-box img {
+    width: 50%;
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* End P-2 of Home Page */
+
+/* Start P-3 of Home Page */
