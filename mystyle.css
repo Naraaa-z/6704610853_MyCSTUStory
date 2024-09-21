@@ -176,6 +176,7 @@ nav {
     color: var(--background--color);
     font-size: 20px;
     line-height: 1.7;
+    margin-bottom: 5rem;
 }
 
 .hp3-box2 {
@@ -190,4 +191,75 @@ nav {
 .hp3-box2 img {
     margin-top: 1rem;
     width: 100%;
+}
+
+/* End of P-3 of Home Page (LSTM Project) */
+
+/* Start of P-4 of Home Page (About me) */
+.home-page4-aboutme {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.hp4-box1 {
+    /* background-color: var(--main-color); */
+    width: 50%;
+    color: var(--main-color);
+}
+
+.hp4-box1-about {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.hp4-box1-about h2 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.hp4-box1-about p {
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.hp4-box1-contact {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-top: 1rem;
+}
+
+.hp4-box1-contact h2 {
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.hp4-box1-contact-link ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    list-style-type: none;
+    font-size: 20px;
+    margin-left: 4rem;
+}
+
+.hp4-box1-contact-link li a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.hp4-box1-contact-link li a:hover {
+    text-decoration: underline;
+}
+
+.hp4-box2 {
+    width: 50%;
+    display: flex;
+}
+
+.hp4-box2 img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
