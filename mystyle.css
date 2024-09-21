@@ -257,9 +257,63 @@ nav {
 }
 
 .hp4-box2 img {
-    width: 50%;
+    width: 40%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+/* End P-4 of Home Page (About me) */
+
+/* Start of My Journey  */
+
+.my-journey1 {
+    display: flex;
+}
+
+.mj-box1 {
+    background-color: var(--main-color);
+    width: 50%;
+    height: auto;
+    color: var(--background--color);
+}
+
+.mj-box1-head {
+    margin-left: 1.25rem;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+.mj-box1-detail {
+    margin-left: 1.25rem;
+    line-height: 1.7;
+    font-size: 20px;
+}
+
+.mj-box1-detail p {
+    margin-bottom: 2rem;
+    padding-right: 1.25rem;
+}
+
+.mj-box2 {
+    background-color: var(--background--colorr);
+    width: 50%;
+    height: auto;
+}
+
+.mj-box2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.mj-box2 img {
+    margin-top: 1rem;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* End of My Journey Page */
