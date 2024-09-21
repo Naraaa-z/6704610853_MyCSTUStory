@@ -1,9 +1,49 @@
 :root {
-    --main-color: #D6001C
+    --main-color: #D6001C;
+    --background--color: #ffff;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: san;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0 var(--main-color) solid;
+    border-bottom-width: 2px;
+    color: var(--main-color);
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 50px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
+    padding: 0.5rem;
+    color: var(--main-color);
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
 }
