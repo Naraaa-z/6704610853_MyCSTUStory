@@ -27,6 +27,15 @@ nav {
     font-size: 2rem;
 }
 
+.logo a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.logo a:hover {
+    text-decoration: underline;
+}
+
 .nav-links {
     list-style: none;
     display: flex;
@@ -46,4 +55,42 @@ nav {
 
 .nav-links a:hover {
     text-decoration: underline;
+}
+
+/* Start Home Page */
+
+.first-big-text {
+    color: var(--main-color);
+    font-size: 20rem;
+    text-align: center;
+}
+
+.second-box {
+    display: flex;
+    justify-content:space-around;
+}
+
+.second-box-detail {
+    /* border: #D6001C 2px solid */
+    margin-right: 30%;
+}
+
+.second-box-detail-topic {
+    color: var(--main-color);
+    font-size: 3.4rem;
+    margin-bottom: 1.8rem;
+    font-weight: 700;
+}
+
+.second-box-detail-desrcibe {
+    color: var(--main-color);
+    font-size: 24px;
+}
+
+.second-box-logo {
+    margin-right: 10%;
+}
+
+.second-box-logo img {
+    width: 110%;
 }
