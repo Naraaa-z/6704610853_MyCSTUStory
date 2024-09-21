@@ -153,3 +153,41 @@ nav {
 /* End P-2 of Home Page */
 
 /* Start P-3 of Home Page */
+.home-page3-lstmproject {
+    display: flex;
+}
+
+.hp3-box1 {
+    width: 50%;
+    background-color: var(--main-color);
+    height: auto;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.hp3-box1 h3 {
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    font-size: 2.1rem;
+    color: var(--background--color);
+}
+
+.hp3-box1 p {
+    color: var(--background--color);
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.hp3-box2 {
+    width: 50%;
+    background-color: var(--background--color);
+}
+
+.hp3-box2 video {
+    width: 100%
+}
+
+.hp3-box2 img {
+    margin-top: 1rem;
+    width: 100%;
+}
