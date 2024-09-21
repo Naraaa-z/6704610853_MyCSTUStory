@@ -317,3 +317,17 @@ nav {
 }
 
 /* End of My Journey Page */
+
+/* Footer */
+.footer-com {
+    margin-top: 2rem;
+    height: 50px;
+    border-top: 2px var(--main-color) solid;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-color);
+    font-weight: 600;
+}
+/* Footer */
