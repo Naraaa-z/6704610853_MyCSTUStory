@@ -1,0 +1,9 @@
+:root {
+    --main-color: #D6001C
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
