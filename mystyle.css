@@ -340,13 +340,14 @@ nav {
 .myfuture-com {
     display: flex;
     color: var(--main-color);
-    /* border-bottom: var(--main-color) 1px solid; */
-    padding-left: 1.25rem;}
+    border-bottom: var(--main-color) 1px solid;
+    padding-left: 1.25rem;
+
+}
 
 .mf-box1 {
     width: 50%;
     height: auto;
-    /* margin-left: 1.25rem; */
     margin-top: 2rem;
 }
 
@@ -370,5 +371,12 @@ nav {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-top: 4rem;
+    margin-top: 5rem;
+}
+
+.myfuture-com2 {
+    display: flex;
+    color: var(--main-color);
+    padding-left: 1.25rem;
+    margin-bottom: 3rem;
 }
