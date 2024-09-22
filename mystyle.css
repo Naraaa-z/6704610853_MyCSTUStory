@@ -13,6 +13,8 @@ body {
     font-family: san;
 }
 
+/* Start of Nav */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -56,6 +58,21 @@ nav {
 .nav-links a:hover {
     text-decoration: underline;
 }
+/* End of Nav */
+
+/* Footer */
+.footer-com {
+    margin-top: 2rem;
+    height: 50px;
+    border-top: 2px var(--main-color) solid;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-color);
+    font-weight: 600;
+}
+/* Footer */
 
 /* Start P-1 of Home Pages*/
 
@@ -265,7 +282,7 @@ nav {
 }
 /* End P-4 of Home Page (About me) */
 
-/* Start of My Journey  */
+/* Start My Journey  */
 
 .my-journey1 {
     display: flex;
@@ -316,18 +333,42 @@ nav {
     display: block;
 }
 
-/* End of My Journey Page */
+/* End My Journey Page */
 
-/* Footer */
-.footer-com {
-    margin-top: 2rem;
-    height: 50px;
-    border-top: 2px var(--main-color) solid;
-    text-align: center;
+/* Start My Future Page */
+
+.myfuture-com {
     display: flex;
-    align-items: center;
-    justify-content: center;
     color: var(--main-color);
-    font-weight: 600;
+    /* border-bottom: var(--main-color) 1px solid; */
+    padding-left: 1.25rem;}
+
+.mf-box1 {
+    width: 50%;
+    height: auto;
+    /* margin-left: 1.25rem; */
+    margin-top: 2rem;
 }
-/* Footer */
+
+.mf-box1 h3 {
+    font-size: 4rem;
+    margin-bottom: 4rem;
+}
+
+.mf-box1 p {
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.mf-box2 {
+    width: 50%;
+    height: auto;
+}
+
+.mf-box2 img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 4rem;
+}
