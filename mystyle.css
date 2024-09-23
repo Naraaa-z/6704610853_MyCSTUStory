@@ -331,6 +331,7 @@ nav {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    border-radius: 20px;
 }
 
 /* End My Journey Page */
@@ -372,6 +373,8 @@ nav {
     margin-right: auto;
     display: block;
     margin-top: 5rem;
+    /* border: var(--main-color) solid 1px; */
+    border-radius: 20px;
 }
 
 .myfuture-com2 {
@@ -380,3 +383,5 @@ nav {
     padding-left: 1.25rem;
     margin-bottom: 3rem;
 }
+
+/* End My Future Page */
