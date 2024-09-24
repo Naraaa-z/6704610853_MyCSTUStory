@@ -275,13 +275,19 @@ nav {
     display: flex;
 }
 
-.hp4-box2 img {
+/* .hp4-box2 img {
     width: 40%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+} */
+
+.hp4-box2 video {
+    width: 100%;
+    height: auto;
 }
+
 /* End P-4 of Home Page (About me) */
 
 /* Start My Journey  */
