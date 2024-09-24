@@ -215,7 +215,7 @@ nav {
 /* Start of P-4 of Home Page (About me) */
 .home-page4-aboutme {
     display: flex;
-    margin-top: 2rem;
+    margin-top: 2rem;   
 }
 
 .hp4-box1 {
@@ -243,6 +243,8 @@ nav {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
     margin-top: 1rem;
+
+    border-top: var(--main-color) 1px solid;
 }
 
 .hp4-box1-contact h2 {
